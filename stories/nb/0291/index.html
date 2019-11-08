@@ -16,13 +16,16 @@
 	<meta name="description" content="Storybooks Speech and Hearing is designed specifically for speech and hearing professionals and makes 40 stories from the African Storybook available with text and audio in English and IPA, as well as multiple other languages
 ">
 	<link rel="stylesheet" href="/storybooks-sah/css/spectre.min.css">
+	<link rel="stylesheet" href="/storybooks-sah/css/gsn.min.css">
 	<link rel="stylesheet" href="/storybooks-sah/css/fontello.min.css">
 	<link rel="canonical" href="https://global-asp.github.io//storybooks-sah/stories/nb/0291/">
 	<link rel="alternate" type="application/rss+xml" title="Storybooks Speech and Hearing" href="/storybooks-sah">
 	<script src="/storybooks-sah/js/sbc.js"></script>
 </head>
 
+
   <body>
+
 
     <div class="container">
 
@@ -78,18 +81,18 @@
 		<div class="btn-group cover-buttons">
 			<a href="#text02" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
 			<button class="btn btn-lg" id="playbutton01" onclick="playpause('01')" title="Play/pause"><i class="icon-volume-up"></i></button>
-			<audio id="audio01" onended="resetbutton('01')" src="https://globalstorybooks.net/media/audio/nb/0291/mp3/01.mp3"></audio>
+			<audio id="audio01" onended="resetbutton('01')" src="/storybooks-sah/audio/nb/0291/mp3/01.mp3"></audio>
 			<button onclick="switchlang('nb,en','en,ipa,nb')" class="btn btn-lg lang-primary" title="Switch between Norwegian and English">en</button>
 			<button onclick="switchlang('nb,ipa','en,ipa,nb')" class="btn btn-lg lang-secondary" title="Switch between Norwegian and IPA">ipa</button>
 		</div>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Written by"><img class="cover-icon" src="/storybooks-sah/css/pencil.svg" alt="Written by"></span> Nina Orange</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Illustrated by"><img class="cover-icon" src="/storybooks-sah/css/art.svg" alt="Illustrated by"></span> Wiehan de Jager</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Translated by"><img class="cover-icon" src="/storybooks-sah/css/global.svg" alt="Translated by"></span> Espen Stranger-Johannessen</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Read by"><img class="cover-icon" src="/storybooks-sah/css/megaphone.svg" alt="Read by"></span> Espen Stranger-Johannessen</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Language"><img class="cover-icon" src="/storybooks-sah/css/language.svg" alt="Language"></span> <a href="/storybooks-sah/stories/nb">Norwegian</a></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Level"><img class="cover-icon" src="/storybooks-sah/css/level.svg" alt="Level"></span> <a href="/storybooks-sah/stories/nb/level4">Level 4</a></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Narrate story"><img class="cover-icon" src="/storybooks-sah/css/speaker.svg" alt="Narrate full story"></span> <audio id="audioplayer" controls><source src="https://globalstorybooks.net/media/audio/nb/0291/nb-0291_vusi.mp3" type="audio/mpeg"></audio></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Autoplay story (beta - desktop only)"><img id="autoplay_icon" class="cover-icon" src="https://dohliam.github.io/elegant-circles/svg/play.svg" alt="Autoplay story" style="cursor:pointer" onclick="autoplay()"></span></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Written by"><img class="cover-icon cover-icon-text" src="/storybooks-sah/css/pencil.svg" alt="Written by"></span> Nina Orange</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Illustrated by"><img class="cover-icon cover-icon-text" src="/storybooks-sah/css/art.svg" alt="Illustrated by"></span> Wiehan de Jager</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Translated by"><img class="cover-icon cover-icon-text" src="/storybooks-sah/css/global.svg" alt="Translated by"></span> Espen Stranger-Johannessen</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Read by"><img class="cover-icon cover-icon-text" src="/storybooks-sah/css/megaphone.svg" alt="Read by"></span> Espen Stranger-Johannessen</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Language"><img class="cover-icon cover-icon-text" src="/storybooks-sah/css/language.svg" alt="Language"></span> <a href="/storybooks-sah/stories/nb">Norwegian</a></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Level"><img class="cover-icon cover-icon-text" src="/storybooks-sah/css/level.svg" alt="Level"></span> <a href="/storybooks-sah/stories/nb/level4">Level 4</a></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Narrate story"><img class="cover-icon cover-icon-audio" src="/storybooks-sah/css/speaker.svg" alt="Narrate full story"></span> <audio id="audioplayer" controls><source src="/0291/nb-0291_vusi.mp3" type="audio/mpeg"></audio></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Autoplay story (beta - desktop only)"><img id="autoplay_icon" class="cover-icon cover-icon-text" src="https://dohliam.github.io/elegant-circles/svg/play.svg" alt="Autoplay story" style="cursor:pointer" onclick="autoplay()"></span></h3>
 	</div>
 </div>
 <hr>
@@ -460,7 +463,7 @@ eating.
 <div id="text13" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0291/13.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3>
-	“Hva skal jeg gjøre?” ropte Vusi. “Den kua som sprang bort var en gave til gjengjeld for halmen som bygningsarbeiderne ga meg. Bygningsarbeiderne ga meg halmen fordi de knakk kjeppen fra fruktplukkerne. Fruktplukkerne ga meg kjeppen fordi de knuste egget som var ment for kaka. Kaka var ment for bryllupet. Nå er det ikke noe egg, ikke noen kake, og ikke noen gave.”
+	“Hva skal jeg gjøre?” ropte Vusi. “Den kua som sprang bort, var en gave til gjengjeld for halmen som bygningsarbeiderne ga meg. Bygningsarbeiderne ga meg halmen fordi de knakk kjeppen fra fruktplukkerne. Fruktplukkerne ga meg kjeppen fordi de knuste egget som var ment for kaka. Kaka var ment for bryllupet. Nå er det ikke noe egg, ikke noen kake, og ikke noen gave.”
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l1"><h3>
@@ -498,7 +501,7 @@ gift.”
 <div id="text14" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0291/14.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt def"><h3>
-	Søstera til Vusi tenkte en stund, så sa hun: “Vusi, kjære bror, jeg bryr meg virkelig ikke om gaver. Jeg bryr meg ikke en gang om kaka! Vi er alle sammen samlet her, så jeg er glad. Så ta på deg noen fine klær og la oss feire denne dagen!” Så det var det Vusi gjorde.
+	Søstera til Vusi tenkte en stund, så sa hun: “Vusi, kjære bror, jeg bryr meg virkelig ikke om gaver. Jeg bryr meg ikke en gang om kaka! Vi er alle sammen samlet her, så jeg er glad. Så ta på deg noen fine klær, og la oss feire denne dagen!” Så det var det Vusi gjorde.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l1"><h3>
@@ -556,6 +559,8 @@ And so that’s what Vusi did.
 	<a class="btn btn-lg" href="/storybooks-sah/stories/nb" class="button">Back to stories list</a> <a class="btn btn-lg disabled" target="_blank" href="">Download PDF</a>
 <br><br>
 </div>
+
+
 
     </div>
 

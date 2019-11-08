@@ -16,13 +16,16 @@
 	<meta name="description" content="Storybooks Speech and Hearing is designed specifically for speech and hearing professionals and makes 40 stories from the African Storybook available with text and audio in English and IPA, as well as multiple other languages
 ">
 	<link rel="stylesheet" href="/storybooks-sah/css/spectre.min.css">
+	<link rel="stylesheet" href="/storybooks-sah/css/gsn.min.css">
 	<link rel="stylesheet" href="/storybooks-sah/css/fontello.min.css">
 	<link rel="canonical" href="https://global-asp.github.io//storybooks-sah/stories/sv/0089/">
 	<link rel="alternate" type="application/rss+xml" title="Storybooks Speech and Hearing" href="/storybooks-sah">
 	<script src="/storybooks-sah/js/sbc.js"></script>
 </head>
 
+
   <body>
+
 
     <div class="container">
 
@@ -77,18 +80,17 @@
 		</h1>
 		<div class="btn-group cover-buttons">
 			<a href="#text02" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
-			<button class="btn btn-lg" id="playbutton01" onclick="playpause('01')" title="Play/pause"><i class="icon-volume-up"></i></button>
-			<audio id="audio01" onended="resetbutton('01')" src="https://globalstorybooks.net/media/audio/sv/0089/mp3/01.mp3"></audio>
+			<button class="btn btn-lg disabled" id="playbutton01" onclick="playpause('01')" title="Play/pause"><i class="icon-volume-up"></i></button>
 			<button onclick="switchlang('sv,en','en,ipa,sv')" class="btn btn-lg lang-primary" title="Switch between Swedish and English">en</button>
 			<button onclick="switchlang('sv,ipa','en,ipa,sv')" class="btn btn-lg lang-secondary" title="Switch between Swedish and IPA">ipa</button>
 		</div>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Written by"><img class="cover-icon" src="/storybooks-sah/css/pencil.svg" alt="Written by"></span> Ursula Nafula</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Illustrated by"><img class="cover-icon" src="/storybooks-sah/css/art.svg" alt="Illustrated by"></span> Jesse Pietersen</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Translated by"><img class="cover-icon" src="/storybooks-sah/css/global.svg" alt="Translated by"></span> Anna Hewett</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Language"><img class="cover-icon" src="/storybooks-sah/css/language.svg" alt="Language"></span> <a href="/storybooks-sah/stories/sv">Swedish</a></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Level"><img class="cover-icon" src="/storybooks-sah/css/level.svg" alt="Level"></span> <a href="/storybooks-sah/stories/sv/level2">Level 2</a></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Narrate story"><img class="cover-icon" src="/storybooks-sah/css/speaker.svg" alt="Narrate full story"></span> <audio id="audioplayer" controls><source src="https://globalstorybooks.net/media/audio/sv/0089/sv-0089_khalai.mp3" type="audio/mpeg"></audio></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Autoplay story (beta - desktop only)"><img id="autoplay_icon" class="cover-icon" src="https://dohliam.github.io/elegant-circles/svg/play.svg" alt="Autoplay story" style="cursor:pointer" onclick="autoplay()"></span></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Written by"><img class="cover-icon cover-icon-text" src="/storybooks-sah/css/pencil.svg" alt="Written by"></span> Ursula Nafula</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Illustrated by"><img class="cover-icon cover-icon-text" src="/storybooks-sah/css/art.svg" alt="Illustrated by"></span> Jesse Pietersen</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Translated by"><img class="cover-icon cover-icon-text" src="/storybooks-sah/css/global.svg" alt="Translated by"></span> Anna Hewett</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Language"><img class="cover-icon cover-icon-text" src="/storybooks-sah/css/language.svg" alt="Language"></span> <a href="/storybooks-sah/stories/sv">Swedish</a></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Level"><img class="cover-icon cover-icon-text" src="/storybooks-sah/css/level.svg" alt="Level"></span> <a href="/storybooks-sah/stories/sv/level2">Level 2</a></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Narrate story"><img class="cover-icon cover-icon-text" src="/storybooks-sah/css/speaker.svg" alt="Narrate full story"></span> <span class="cover_msg">The audio for this story is currently not available.</span></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Autoplay story (beta - desktop only)"><img id="autoplay_icon" class="cover-icon cover-icon-text" src="https://dohliam.github.io/elegant-circles/svg/play.svg" alt="Autoplay story" style="cursor:pointer" onclick="autoplay()"></span></h3>
 	</div>
 </div>
 <hr>
@@ -96,7 +98,7 @@
 <div id="text02" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0089/02.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt def"><h3>
-	Det här är Khalai. Hon är sju år gammal. Hennes namn betyder ”den goda” på hennes språk lubukusu.
+	Det här är Khalai. Hon är sju år gammal. Hennes namn betyder “den goda” på hennes språk lubukusu.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
@@ -107,14 +109,13 @@ good one’ in her
 language, Lubukusu.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
-
+	
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text01" class="btn btn-lg" title="Previous page"><i class="icon-arrow-up"></i></a>
 		<a href="#text03" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
-		<audio id="audio02" onended="resetbutton('02')" src="https://globalstorybooks.net/media/audio/sv/0089/mp3/02.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton02" onclick="playpause('02')" title="Play/pause"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton02" onclick="playpause('02')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('sv,en','en,ipa,sv')" class="btn btn-lg lang-primary" title="Switch between Swedish and English">en</button>
@@ -128,7 +129,7 @@ language, Lubukusu.
 <div id="text03" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0089/03.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt def"><h3>
-	Khalai vaknar och pratar med apelsinträdet. ”Snälla apelsinträd, väx dig stor och ge oss många mogna apelsiner”.
+	Khalai vaknar och pratar med apelsinträdet. “Snälla apelsinträd, väx dig stor och ge oss många mogna apelsiner.”
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
@@ -139,14 +140,13 @@ grow big and give us
 lots of ripe oranges.”
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
-
+	
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text02" class="btn btn-lg" title="Previous page"><i class="icon-arrow-up"></i></a>
 		<a href="#text04" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
-		<audio id="audio03" onended="resetbutton('03')" src="https://globalstorybooks.net/media/audio/sv/0089/mp3/03.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton03" onclick="playpause('03')" title="Play/pause"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton03" onclick="playpause('03')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('sv,en','en,ipa,sv')" class="btn btn-lg lang-primary" title="Switch between Swedish and English">en</button>
@@ -160,7 +160,7 @@ lots of ripe oranges.”
 <div id="text04" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0089/04.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt def"><h3>
-	Khalei går till skolan. På vägen dit pratar hon med gräset. ”Snälla gräs, väx grönare och torka inte ut”.
+	Khalai går till skolan. På vägen dit pratar hon med gräset. “Snälla gräs, väx grönare och torka inte ut.”
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
@@ -171,14 +171,13 @@ grass, grow greener
 and don’t dry up.”
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
-
+	
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text03" class="btn btn-lg" title="Previous page"><i class="icon-arrow-up"></i></a>
 		<a href="#text05" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
-		<audio id="audio04" onended="resetbutton('04')" src="https://globalstorybooks.net/media/audio/sv/0089/mp3/04.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton04" onclick="playpause('04')" title="Play/pause"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton04" onclick="playpause('04')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('sv,en','en,ipa,sv')" class="btn btn-lg lang-primary" title="Switch between Swedish and English">en</button>
@@ -192,7 +191,7 @@ and don’t dry up.”
 <div id="text05" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0089/05.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt def"><h3>
-	Khalai går förbi vilda blommor. ”Snälla blommor, fortsätt att blomma så att jag kan fästa er i mitt hår”.
+	Khalai går förbi vilda blommor. “Snälla blommor, fortsätt att blomma så att jag kan fästa er i mitt hår.”
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
@@ -203,14 +202,13 @@ so I can put you in my
 hair.”
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
-
+	
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text04" class="btn btn-lg" title="Previous page"><i class="icon-arrow-up"></i></a>
 		<a href="#text06" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
-		<audio id="audio05" onended="resetbutton('05')" src="https://globalstorybooks.net/media/audio/sv/0089/mp3/05.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton05" onclick="playpause('05')" title="Play/pause"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton05" onclick="playpause('05')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('sv,en','en,ipa,sv')" class="btn btn-lg lang-primary" title="Switch between Swedish and English">en</button>
@@ -224,7 +222,7 @@ hair.”
 <div id="text06" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0089/06.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt def"><h3>
-	I skolan pratar Khalai med trädet som står mitt på skolgården. ”Snälla träd, låt dina grenar växa sig långa så att vi kan läsa under dem i skuggan”.
+	I skolan pratar Khalai med trädet som står mitt på skolgården. “Snälla träd, låt dina grenar växa sig långa så att vi kan läsa under dem i skuggan”.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
@@ -237,14 +235,13 @@ branches so we can
 read under your shade.”
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
-
+	
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text05" class="btn btn-lg" title="Previous page"><i class="icon-arrow-up"></i></a>
 		<a href="#text07" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
-		<audio id="audio06" onended="resetbutton('06')" src="https://globalstorybooks.net/media/audio/sv/0089/mp3/06.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton06" onclick="playpause('06')" title="Play/pause"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton06" onclick="playpause('06')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('sv,en','en,ipa,sv')" class="btn btn-lg lang-primary" title="Switch between Swedish and English">en</button>
@@ -258,7 +255,7 @@ read under your shade.”
 <div id="text07" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0089/07.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt def"><h3>
-	Khalai pratar med häcken runt hennes skola. ”Snälla, väx dig stark och hindra onda människor från att komma in”.
+	Khalai pratar med häcken runt hennes skola. “Snälla, väx dig stark och hindra onda människor från att komma in.”
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
@@ -269,14 +266,13 @@ and stop bad people
 from coming in.”
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
-
+	
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text06" class="btn btn-lg" title="Previous page"><i class="icon-arrow-up"></i></a>
 		<a href="#text08" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
-		<audio id="audio07" onended="resetbutton('07')" src="https://globalstorybooks.net/media/audio/sv/0089/mp3/07.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton07" onclick="playpause('07')" title="Play/pause"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton07" onclick="playpause('07')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('sv,en','en,ipa,sv')" class="btn btn-lg lang-primary" title="Switch between Swedish and English">en</button>
@@ -290,7 +286,7 @@ from coming in.”
 <div id="text08" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0089/08.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt def"><h3>
-	När Khalai kommer hem från skolan hälsar hon på apelsinträdet. ”Är dina apelsiner mogna än?”, frågar Khalai.
+	När Khalai kommer hem från skolan hälsar hon på apelsinträdet. “Är dina apelsiner mogna än?”, frågar Khalai.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
@@ -301,14 +297,13 @@ visits the orange tree.
 yet?” asks Khalai.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
-
+	
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text07" class="btn btn-lg" title="Previous page"><i class="icon-arrow-up"></i></a>
 		<a href="#text09" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
-		<audio id="audio08" onended="resetbutton('08')" src="https://globalstorybooks.net/media/audio/sv/0089/mp3/08.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton08" onclick="playpause('08')" title="Play/pause"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton08" onclick="playpause('08')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('sv,en','en,ipa,sv')" class="btn btn-lg lang-primary" title="Switch between Swedish and English">en</button>
@@ -322,7 +317,7 @@ yet?” asks Khalai.
 <div id="text09" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0089/09.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt def"><h3>
-	”Apelsinerna är fortfarande gröna”, suckar Khalai. ”Vi ses imorgon apelsinträdet”, säger Khalai. ”Kanske har du en mogen apelsin till mig då!”
+	“Apelsinerna är fortfarande gröna”, suckar Khalai. “Vi ses imorgon apelsinträdet”, säger Khalai. “Kanske har du en mogen apelsin till mig då!”
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
@@ -335,14 +330,13 @@ you will have a ripe
 orange for me!”
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
-
+	
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
 		<a href="#text08" class="btn btn-lg" title="Previous page"><i class="icon-arrow-up"></i></a>
 		<a href="#colophon" class="btn btn-lg" title="Story credits"><i class="icon-arrow-down"></i></a>
-		<audio id="audio09" onended="resetbutton('09')" src="https://globalstorybooks.net/media/audio/sv/0089/mp3/09.mp3"></audio>
-		<button class="btn btn-lg" id="playbutton09" onclick="playpause('09')" title="Play/pause"><i class="icon-volume-up"></i></button>
+		<button class="btn btn-lg disabled" id="playbutton09" onclick="playpause('09')" title="Play/pause"><i class="icon-volume-up"></i></button>
 	</div>
 	<div class="btn-group switcher-group">
 		<button onclick="switchlang('sv,en','en,ipa,sv')" class="btn btn-lg lang-primary" title="Switch between Swedish and English">en</button>
@@ -384,6 +378,8 @@ orange for me!”
 	<a class="btn btn-lg" href="/storybooks-sah/stories/sv" class="button">Back to stories list</a> <a class="btn btn-lg disabled" target="_blank" href="">Download PDF</a>
 <br><br>
 </div>
+
+
 
     </div>
 

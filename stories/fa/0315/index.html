@@ -15,14 +15,17 @@
 	<title>آواز ساکیما - Storybooks Speech and Hearing</title>
 	<meta name="description" content="Storybooks Speech and Hearing is designed specifically for speech and hearing professionals and makes 40 stories from the African Storybook available with text and audio in English and IPA, as well as multiple other languages
 ">
-	<link rel="stylesheet" href="/storybooks-sah/css/spectre-ar.min.css">
+	<link rel="stylesheet" href="/storybooks-sah/css/spectre.min.css">
+	<link rel="stylesheet" href="/storybooks-sah/css/gsn-ar.min.css">
 	<link rel="stylesheet" href="/storybooks-sah/css/fontello.min.css">
 	<link rel="canonical" href="https://global-asp.github.io//storybooks-sah/stories/fa/0315/">
 	<link rel="alternate" type="application/rss+xml" title="Storybooks Speech and Hearing" href="/storybooks-sah">
 	<script src="/storybooks-sah/js/sbc.js"></script>
 </head>
 
+
   <body>
+
 
     <div class="container">
 
@@ -78,18 +81,18 @@
 		<div class="btn-group cover-buttons">
 			<a href="#text02" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
 			<button class="btn btn-lg" id="playbutton01" onclick="playpause('01')" title="Play/pause"><i class="icon-volume-up"></i></button>
-			<audio id="audio01" onended="resetbutton('01')" src="https://globalstorybooks.net/media/audio/fa/0315/mp3/01.mp3"></audio>
+			<audio id="audio01" onended="resetbutton('01')" src="/storybooks-sah/audio/fa/0315/mp3/01.mp3"></audio>
 			<button onclick="switchlang('fa,en','en,ipa,fa')" class="btn btn-lg lang-primary" title="Switch between Persian and English">en</button>
 			<button onclick="switchlang('fa,ipa','en,ipa,fa')" class="btn btn-lg lang-secondary" title="Switch between Persian and IPA">ipa</button>
 		</div>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Written by"><img class="cover-icon" src="/storybooks-sah/css/pencil.svg" alt="Written by"></span> Ursula Nafula</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Illustrated by"><img class="cover-icon" src="/storybooks-sah/css/art.svg" alt="Illustrated by"></span> Peris Wachuka</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Translated by"><img class="cover-icon" src="/storybooks-sah/css/global.svg" alt="Translated by"></span> Marzieh Mohammadian Haghighi</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Read by"><img class="cover-icon" src="/storybooks-sah/css/megaphone.svg" alt="Read by"></span> Nasim Peikazadi</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Language"><img class="cover-icon" src="/storybooks-sah/css/language.svg" alt="Language"></span> <a href="/storybooks-sah/stories/fa">Persian</a></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Level"><img class="cover-icon" src="/storybooks-sah/css/level.svg" alt="Level"></span> <a href="/storybooks-sah/stories/fa/level3">Level 3</a></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Narrate story"><img class="cover-icon" src="/storybooks-sah/css/speaker.svg" alt="Narrate full story"></span> <audio id="audioplayer" controls><source src="https://globalstorybooks.net/media/audio/fa/0315/fa-0315_sakima.mp3" type="audio/mpeg"></audio></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Autoplay story (beta - desktop only)"><img id="autoplay_icon" class="cover-icon" src="https://dohliam.github.io/elegant-circles/svg/play.svg" alt="Autoplay story" style="cursor:pointer" onclick="autoplay()"></span></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Written by"><img class="cover-icon cover-icon-text" src="/storybooks-sah/css/pencil.svg" alt="Written by"></span> Ursula Nafula</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Illustrated by"><img class="cover-icon cover-icon-text" src="/storybooks-sah/css/art.svg" alt="Illustrated by"></span> Peris Wachuka</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Translated by"><img class="cover-icon cover-icon-text" src="/storybooks-sah/css/global.svg" alt="Translated by"></span> Marzieh Mohammadian Haghighi</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Read by"><img class="cover-icon cover-icon-text" src="/storybooks-sah/css/megaphone.svg" alt="Read by"></span> Nasim Peikazadi</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Language"><img class="cover-icon cover-icon-text" src="/storybooks-sah/css/language.svg" alt="Language"></span> <a href="/storybooks-sah/stories/fa">Persian</a></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Level"><img class="cover-icon cover-icon-text" src="/storybooks-sah/css/level.svg" alt="Level"></span> <a href="/storybooks-sah/stories/fa/level3">Level 3</a></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Narrate story"><img class="cover-icon cover-icon-audio" src="/storybooks-sah/css/speaker.svg" alt="Narrate full story"></span> <audio id="audioplayer" controls><source src="/0315/fa-0315_sakima.mp3" type="audio/mpeg"></audio></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Autoplay story (beta - desktop only)"><img id="autoplay_icon" class="cover-icon cover-icon-text" src="https://dohliam.github.io/elegant-circles/svg/play.svg" alt="Autoplay story" style="cursor:pointer" onclick="autoplay()"></span></h3>
 	</div>
 </div>
 <hr>
@@ -251,7 +254,7 @@ One day his mother asked him, “Where do you learn these songs from, Sakima?”
 <div id="text07" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0315/07.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3 dir="rtl">
-	ساکیما گفت، “آنها خودشان فی البداهه می‌آیند. من آنها را در سرم می‌شنوم وبعد می‌خوانم.
+	ساکیما گفت، “آنها خودشان فی البداهه می‌آیند. من آنها را در سرم می‌شنوم وبعد می‌خوانم.”
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
@@ -279,7 +282,8 @@ One day his mother asked him, “Where do you learn these songs from, Sakima?”
 <div id="text08" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0315/08.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3 dir="rtl">
-	ساکیما علاقه داشت که برای خواهر کوچکش آواز بخواند، مخصوصا، هروقت خواهرش احساس گرسنگی می‌کرد. در حالیکه او آهنگ مورد علاقه اش را می‌خواند خواهرش به اوگوش می‌داد. او با نوای آرامش بخش آواز سر تکان می‌داد.
+	ساکیما علاقه داشت که برای خواهر کوچکش آواز بخواند، مخصوصا، هروقت خواهرش ا
+حساس گرسنگی می‌کرد. در حالیکه او آهنگ مورد علاقه اش را می‌خواند خواهرش به اوگوش می‌داد. او با نوای آرامش بخش آواز سر تکان می‌داد.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
@@ -311,7 +315,7 @@ She would sway to the soothing tune.
 <div id="text09" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0315/09.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3 dir="rtl">
-	خواهرش مرتب تکرار می‌کرد، “ساکیما می‌توانی دوباره و دوباره برایم آواز بخوانی؟”ساکیما قبول می‌کرد و دوباره و دوباره آوازها را می‌خواند.
+	خواهرش مرتب تکرار می‌کرد، “ساکیما می‌توانی دوباره و دوباره برایم آواز بخوانی؟” ساکیما قبول می‌کرد و دوباره و دوباره آوازها را می‌خواند.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
@@ -371,7 +375,7 @@ Sakima knew that there was something wrong.
 <div id="text11" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0315/11.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3 dir="rtl">
-	ساکیما پرسید، “چه اتفاقی افتاده، مادر، پدر؟”ساکیما متوجه شد که پسر مرد ثروتمند گم شده بود. مرد ثروتمند خیلی ناراحت بود واحساس تنهایی می‌کرد.
+	ساکیما پرسید، “چه اتفاقی افتاده، مادر، پدر؟” ساکیما متوجه شد که پسر مرد ثروتمند گم شده بود. مرد ثروتمند خیلی ناراحت بود واحساس تنهایی می‌کرد.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
@@ -403,7 +407,7 @@ The man was very sad and lonely.
 <div id="text12" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0315/12.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3 dir="rtl">
-	ساکیما به پدر ومادرش گفت، “من می‌توانم برای او آواز بخوانم. اوممکن است دوباره شاد شود. ولی پدر ومادرش با او مخالفت کردند.” او خیلی ثروتمند است. تو یک پسر نابینا هستی. تو فکر می‌کنی آواز خواندن تو به او کمکی می‌کند؟”
+	ساکیما به پدر ومادرش گفت، “من می‌توانم برای او آواز بخوانم. اوممکن است دوباره شاد شود.” ولی پدر ومادرش با او مخالفت کردند. “او خیلی ثروتمند است. تو یک پسر نابینا هستی. تو فکر می‌کنی آواز خواندن تو به او کمکی می‌کند؟”
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
@@ -435,7 +439,7 @@ But his parents dismissed him.
 <div id="text13" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0315/13.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3 dir="rtl">
-	اما، ساکیما تسلیم نشد. خواهر کوچکش هم او را حمایت کرد. او گفت، “وقتی که من گرسنه هستم ترانه های ساکیما من را آرام می‌کند. آنها مرد ثروتمند را هم آرام می‌کنند.
+	اما، ساکیما تسلیم نشد. خواهر کوچکش هم او را حمایت کرد. او گفت، “وقتی که من گرسنه هستم ترانه های ساکیما من را آرام می‌کند. آنها مرد ثروتمند را هم آرام می‌کنند.”
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
@@ -555,7 +559,7 @@ But one man said, “Nobody has been able to console the boss. Does this blind b
 <div id="text17" class="columns">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank/master/0315/17.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt def"><h3 dir="rtl">
-	ساکیما آواز خواندنش را تمام کرد و رویش را برگرداند که برود. ولی مرد ثروتمند با سرعت به طرفش آمد و گفت، “لطفا دوباره آواز بخوان.
+	ساکیما آواز خواندنش را تمام کرد و رویش را برگرداند که برود. ولی مرد ثروتمند با سرعت به طرفش آمد و گفت، “لطفا دوباره آواز بخوان.”
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
@@ -673,6 +677,8 @@ He took his son and Sakima to hospital so Sakima could regain his sight.
 	<a class="btn btn-lg" href="/storybooks-sah/stories/fa" class="button">Back to stories list</a> <a class="btn btn-lg disabled" target="_blank" href="">Download PDF</a>
 <br><br>
 </div>
+
+
 
     </div>
 
